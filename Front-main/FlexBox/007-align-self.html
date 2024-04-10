@@ -8,20 +8,19 @@
   <title>Flex-box</title>
 
   <style>
-    .flex {
+    .flex 
+    {
       display: flex;
-      flex-direction: column;
-
-      align-items: center;
+      flex-direction: inherit;    
     }
-
     .flex .item:nth-of-type(1),
-    .flex .item:nth-of-type(4) {
-      align-self: flex-start;
+    .flex .item:nth-of-type(4) 
+    {
+      align-self: initial;
     }
-
-    .flex .item:nth-of-type(5) {
-      align-self: flex-end;
+    .flex .item:nth-of-type(5) 
+    {
+      align-self: initial;
     }
   </style>
 </head>
